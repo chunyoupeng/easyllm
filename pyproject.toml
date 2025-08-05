@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-easy-llm"
+version = "0.1.2"
+description = "A lightweight LLM wrapper that unifies prompt, RAG and multi-provider calls"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{ name = "Chunyou Peng", email = "chunyoupeng@gmail.com" }]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "httpx>=0.27.0",
+  "openai"
+]
+
+[tool.setuptools]                  # 关键：告诉 setuptools 去哪里找包
+packages = {find = {where = ["."]}}
+
+# 如果你想严格指定哪些包被打进去，也可以:
+# [tool.setuptools.packages.find]
+# include = ["easyllm*"]
