@@ -1,7 +1,7 @@
 
 # EasyLLM
 [中文文档 🇨🇳](./README.zh.md)  
-[![PyPI](https://img.shields.io/pypi/v/python-easy-llm?label=PyPI)](https://pypi.org/project/python-easy-llm/0.1.0/)
+[![PyPI](https://img.shields.io/pypi/v/python-easy-llm?label=PyPI)](https://pypi.org/project/python-easy-llm/0.1.2/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/chunyoupeng/python-easy-llm?style=social)](https://github.com/chunyoupeng/python-easy-llm)
 
